@@ -4,9 +4,9 @@ import string
 num = int(input("Number of words to generate: "))
 # read word lists
 with open('number.txt', 'r') as infile:
-    nouns = infile.read().strip(' \n').split('\n')
-with open('adjectives.txt', 'r') as infile:
-    adjectives = infile.read().strip(' \n').split('\n')
+    number = infile.read().strip(' \n').split('\n')
+with open('radiotelephony-spelling-alphabet.txt', 'r') as infile:
+    radiotelephony-spelling-alphabet = infile.read().strip(' \n').split('\n')
 #read censor list
 with open('blacklist.txt','r') as inline:
     censored = inline.read().strip(' \n').split('\n')
