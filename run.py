@@ -3,7 +3,7 @@ import string
 # get user input
 num = int(input("Number of words to generate: "))
 # read word lists
-with open('nouns.txt', 'r') as infile:
+with open('number.txt', 'r') as infile:
     nouns = infile.read().strip(' \n').split('\n')
 with open('adjectives.txt', 'r') as infile:
     adjectives = infile.read().strip(' \n').split('\n')
