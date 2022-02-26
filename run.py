@@ -14,8 +14,8 @@ with open('blacklist.txt','r') as inline:
 for i in range(num):
 
     # construct username
-    word1 = random.choice(adjectives)
-    word2 = random.choice(nouns)
+    word1 = random.choice(radiotelephony-spelling-alphabet)
+    word2 = random.choice(number)
     #check if word2 is censored
     if word2 in censored:
         i -=1
