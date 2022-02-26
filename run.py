@@ -24,7 +24,7 @@ for i in range(num):
     #captilaize first letter
     word1 =word1.title()
     word2 =word2.title()
-    username = '{}{}{}'.format(word1, word2, random.randint(1, 99))
+    username = '{}{}{}'.format(word1, word2, +"@"+"flashpay"+".my.id")
 
     # success
     print(username)
