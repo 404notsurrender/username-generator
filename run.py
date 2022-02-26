@@ -4,9 +4,9 @@ import string
 num = int(input("Number of words to generate: "))
 # read word lists
 with open('number.txt', 'r') as infile:
-    number = infile.read().strip(' \n').split('\n')
+    x = infile.read().strip(' \n').split('\n')
 with open('radiotelephony-spelling-alphabet.txt', 'r') as infile:
-    radiotelephony-spelling-alphabet = infile.read().strip(' \n').split('\n')
+    y = infile.read().strip(' \n').split('\n')
 #read censor list
 with open('blacklist.txt','r') as inline:
     censored = inline.read().strip(' \n').split('\n')
@@ -14,8 +14,8 @@ with open('blacklist.txt','r') as inline:
 for i in range(num):
 
     # construct username
-    word1 = random.choice(radiotelephony-spelling-alphabet)
-    word2 = random.choice(number)
+    word1 = random.choice(y)
+    word2 = random.choice(x)
     #check if word2 is censored
     if word2 in censored:
         i -=1
